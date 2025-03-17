@@ -68,3 +68,21 @@ header {
     color: white;
     backface-visibility: hidden;
 }
+@media screen and (orientation: portrait) {
+    .book {
+        width: 200px;
+        height: 250px;
+        perspective: 1000px;
+        margin-bottom: 15px;
+    }
+    .book-back{
+        font-size: 25px;
+    }
+    img{
+        width: 200px;
+        height: 250px;
+    }
+    section{
+        height: 850px;
+    }
+}

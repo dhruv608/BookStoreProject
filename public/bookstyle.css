@@ -26,3 +26,18 @@ footer {
 .btnActive:active{
     color: red;
 }
+.click{
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+}
+@media screen and (orientation: portrait) {
+
+       .click{
+         width: 390px;
+       }    
+       textarea{
+        width:210px !important;
+       }                                                       
+
+}
